@@ -1,7 +1,9 @@
 {
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
-  "required": [
-    "schemaVersion",
-    "id"
-  ]
+  "required": ["schemaVersion", "id", "label", "contentRoot", "assetsRoot", "defaultPage", "repoUrl", "editBaseUrl"],
+  "properties": {
+    "schemaVersion": { "const": "steve-wiki-source/v1" },
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{1,48}$" }
+  }
 }

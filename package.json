@@ -1,0 +1,9 @@
+{
+  "name": "wiki-data-registry",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate-registry.mjs"
+  },
+  "devDependencies": {}
+}
