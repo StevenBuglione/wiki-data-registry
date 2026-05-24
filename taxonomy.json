@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "steve-wiki-taxonomy/v1",
+  "facets": {
+    "status": [
+      "draft",
+      "active",
+      "deprecated",
+      "archived"
+    ],
+    "difficulty": [
+      "beginner",
+      "intermediate",
+      "advanced"
+    ]
+  }
+}
