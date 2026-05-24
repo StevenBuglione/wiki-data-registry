@@ -1,0 +1,13 @@
+{
+  "owner": "StevenBuglione",
+  "registryRepo": "wiki-data-registry",
+  "registryPath": "sources.json",
+  "branchPrefix": "omg/wiki-research",
+  "prLabels": [
+    "wiki:needs-review"
+  ],
+  "maxIssuesPerRun": 1,
+  "maxPagesPerIssue": 1,
+  "closeBehavior": "after_pr_merge",
+  "blockedDomains": []
+}
