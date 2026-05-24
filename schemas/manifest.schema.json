@@ -1,7 +1,9 @@
 {
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
-  "required": [
-    "schemaVersion",
-    "pages"
-  ]
+  "required": ["schemaVersion", "source", "contentBaseUrl", "assetsBaseUrl", "pages", "sidebar"],
+  "properties": {
+    "schemaVersion": { "const": "steve-wiki-manifest/v1" },
+    "pages": { "type": "array" }
+  }
 }

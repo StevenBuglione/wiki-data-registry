@@ -1,7 +1,17 @@
 {
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
-  "required": [
-    "schemaVersion",
-    "sources"
-  ]
+  "required": ["schemaVersion", "updatedAt", "routeMode", "sources"],
+  "properties": {
+    "schemaVersion": { "const": "steve-wiki-registry/v1" },
+    "updatedAt": { "type": "string" },
+    "routeMode": { "const": "query" },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "label", "description", "enabled", "order", "latestUrl"]
+      }
+    }
+  }
 }
