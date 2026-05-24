@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "steve-wiki-registry/v1",
+  "updatedAt": "2026-05-24T18:46:34.233Z",
+  "routeMode": "query",
+  "sources": [
+    {
+      "id": "devops",
+      "label": "DevOps",
+      "description": "Cloud, Kubernetes, CI/CD, automation, infrastructure",
+      "enabled": true,
+      "order": 10,
+      "latestUrl": "https://cdn.jsdelivr.net/gh/StevenBuglione/wiki-data-devops@published/latest.json"
+    },
+    {
+      "id": "homelab",
+      "label": "Homelab",
+      "description": "Self-hosting, networking, storage, disaster recovery",
+      "enabled": true,
+      "order": 20,
+      "latestUrl": "https://cdn.jsdelivr.net/gh/StevenBuglione/wiki-data-homelab@published/latest.json"
+    },
+    {
+      "id": "projects",
+      "label": "Projects",
+      "description": "Project notes, application architecture, roadmaps, and retrospectives",
+      "enabled": true,
+      "order": 30,
+      "latestUrl": "https://cdn.jsdelivr.net/gh/StevenBuglione/wiki-data-projects@published/latest.json"
+    }
+  ]
+}
